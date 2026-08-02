@@ -1,0 +1,33 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local notes and temporary files
+*.log
+*.tmp
+*.bak
+.env
+.env.*
+node_modules/
+
+# Private product material
+apps/
+packages/
+scripts/
+storage/
+migrations/
+database/
+private/
+internal/
+evidence/
+exports/
+
+# Real commercial or fiscal data
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.xml
+*.jsonl
