@@ -1,33 +1,20 @@
-# Operating systems and editors
+# OS / editor
 .DS_Store
 Thumbs.db
+*.swp
 .idea/
 .vscode/
 
-# Local notes and temporary files
-*.log
-*.tmp
-*.bak
+# Environment and secrets — this repository must never contain any
 .env
 .env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies / build output (not expected here, ignored defensively)
 node_modules/
-
-# Private product material
-apps/
-packages/
-scripts/
-storage/
-migrations/
-database/
-private/
-internal/
-evidence/
-exports/
-
-# Real commercial or fiscal data
-*.csv
-*.xlsx
-*.xls
-*.pdf
-*.xml
-*.jsonl
+dist/
+build/
+out/
+.next/

@@ -1,28 +1,38 @@
-ANCLORA PORTFOLIO SHOWCASE LICENSE
+ALL RIGHTS RESERVED — PORTFOLIO EVALUATION ONLY
 
-Copyright (c) 2026 Antonio Ballesteros.
-All rights reserved.
+Copyright (c) 2026 Anclora
 
-This repository is published exclusively for professional portfolio,
-evaluation and demonstration purposes.
+The contents of this repository — including but not limited to text,
+documentation, diagrams, images, screenshots and sample data — are
+provided solely for professional evaluation purposes (recruitment,
+collaboration assessment and technical due diligence).
 
-Permission is granted to view the repository and its documentation through
-GitHub for the purpose of evaluating the author's professional experience.
+No permission is granted to copy, reproduce, modify, distribute,
+sublicense, publish or make commercial use of any part of this
+repository or the materials it describes.
 
-No permission is granted to:
+This repository is a sanitized showcase. It does not contain, and does
+not grant any right to, the operational source code, production data,
+credentials, deployment configuration, real leads or the proprietary
+lead-capture and analytics logic of the original project.
 
-- copy or redistribute substantial portions of this repository;
-- reproduce its product design or documentation as a competing product;
-- use the material for commercial implementation;
-- create derivative products or services from the material;
-- remove copyright, attribution or ownership notices;
-- represent this work as your own.
+---
 
-The underlying operational product, source code, business logic, integrations,
-data models, fiscal rules and deployment infrastructure are not included in
-this public repository and remain proprietary.
+TODOS LOS DERECHOS RESERVADOS — SOLO EVALUACIÓN DE PORTFOLIO
 
-THE MATERIAL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IT DOES NOT
-CONSTITUTE TAX, ACCOUNTING, LEGAL OR REGULATORY ADVICE.
+Copyright (c) 2026 Anclora
 
-For licensing or professional enquiries, contact the repository owner.
+El contenido de este repositorio — incluyendo, sin limitación, textos,
+documentación, diagramas, imágenes, capturas y datos de ejemplo — se
+facilita únicamente con fines de evaluación profesional (selección de
+personal, valoración de colaboración y due diligence técnica).
+
+No se concede permiso para copiar, reproducir, modificar, distribuir,
+sublicenciar, publicar ni hacer uso comercial de ninguna parte de este
+repositorio ni de los materiales que describe.
+
+Este repositorio es una muestra sanitizada. No contiene, ni concede
+derecho alguno sobre, el código fuente operativo, los datos de
+producción, las credenciales, la configuración de despliegue, los leads
+reales ni la lógica propietaria de captación y analítica del proyecto
+original.
