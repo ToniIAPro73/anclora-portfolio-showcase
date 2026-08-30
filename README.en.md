@@ -102,13 +102,17 @@ More detail in [docs/architecture.md](docs/architecture.md).
 
 ## Screenshots (synthetic data)
 
-| Premium hero | Residences |
+| Image-driven hero | Residences |
 |---|---|
-| ![Premium hero](assets/screenshots/01-hero.png) | ![Residences](assets/screenshots/02-residences.png) |
+| ![Hero with real background image, serif headline and dual CTAs](assets/screenshots/01-hero.png) | ![Residence cards with real imagery](assets/screenshots/02-residences.png) |
 
-| Lead capture form | Mobile experience |
+| Image gallery | Lead capture form |
 |---|---|
-| ![Lead capture form](assets/screenshots/03-lead-capture.png) | ![Mobile experience](assets/screenshots/04-mobile.png) |
+| ![Adaptive-span image gallery grid](assets/screenshots/03-gallery.png) | ![Lead capture form beside marina image](assets/screenshots/04-lead-capture.png) |
+
+| Mobile experience |
+|---|
+| ![Mobile hero experience](assets/screenshots/05-mobile.png) |
 
 The screenshots come from the interactive demo in this repository, which runs on fictional data; they do not come from the operational environment.
 

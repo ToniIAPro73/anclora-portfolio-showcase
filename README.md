@@ -102,13 +102,17 @@ Más detalle en [docs/architecture.md](docs/architecture.md).
 
 ## Capturas (datos sintéticos)
 
-| Hero premium | Residencias |
+| Hero con imagen real | Residencias |
 |---|---|
-| ![Hero premium](assets/screenshots/01-hero.png) | ![Residencias](assets/screenshots/02-residences.png) |
+| ![Hero con imagen de fondo, titular serif y doble CTA](assets/screenshots/01-hero.png) | ![Tarjetas de residencias con imágenes reales](assets/screenshots/02-residences.png) |
 
-| Formulario de captación | Experiencia móvil |
+| Galería de imágenes | Formulario de captación |
 |---|---|
-| ![Formulario de captación](assets/screenshots/03-lead-capture.png) | ![Experiencia móvil](assets/screenshots/04-mobile.png) |
+| ![Galería con rejilla adaptable de imágenes](assets/screenshots/03-gallery.png) | ![Formulario de captación junto a imagen del puerto](assets/screenshots/04-lead-capture.png) |
+
+| Experiencia móvil |
+|---|
+| ![Experiencia móvil del hero](assets/screenshots/05-mobile.png) |
 
 Las capturas proceden de la demo interactiva de este repositorio, que funciona con datos ficticios; no proceden del entorno operativo.
 
