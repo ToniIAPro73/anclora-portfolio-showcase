@@ -1,0 +1,26 @@
+{
+  "_notice": "Fictional data for portfolio demonstration only / Datos ficticios solo para demostración de portfolio",
+  "development": "Residencial Mirador Azul",
+  "location": {
+    "area": "Costa de los Pinos",
+    "island": "Mallorca",
+    "country": "España"
+  },
+  "residence": {
+    "name": "Villa Azahar",
+    "type": "villa",
+    "price": 2450000,
+    "currency": "EUR",
+    "area_m2": 320,
+    "plot_m2": 980,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "features": [
+      "piscina privada",
+      "terraza con vistas al mar",
+      "domótica integral",
+      "cocina de diseño",
+      "garaje doble"
+    ]
+  }
+}

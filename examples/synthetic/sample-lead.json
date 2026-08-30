@@ -1,0 +1,16 @@
+{
+  "_notice": "Fictional data for portfolio demonstration only / Datos ficticios solo para demostración de portfolio",
+  "name": "Usuario Demo",
+  "email": "demo@example.com",
+  "phone": "+34 600 000 000",
+  "budget": "2M-3M",
+  "interest": "villa",
+  "message": "Me interesa concertar una visita a la residencia durante el próximo mes.",
+  "attribution": {
+    "utm_source": "newsletter",
+    "utm_medium": "email",
+    "utm_campaign": "lanzamiento-otoño",
+    "referrer": "https://example.com",
+    "device": "desktop"
+  }
+}

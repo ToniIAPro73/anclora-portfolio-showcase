@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" font-family="Inter, system-ui, sans-serif" role="img" aria-label="Hero premium del sitio inmobiliario Mirador Azul, mockup sintético">
+  <title>Hero — Mirador Azul · Mallorca — mockup sintético</title>
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFF3F5"/>
+      <stop offset="1" stop-color="#DDE8EC"/>
+    </linearGradient>
+    <linearGradient id="seaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A7BEC9"/>
+      <stop offset="1" stop-color="#456A7D"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C5A059"/>
+      <stop offset="1" stop-color="#D4B574"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hero backdrop: abstract coastal scene -->
+  <rect width="1280" height="800" fill="#F6F4F0"/>
+  <rect x="0" y="72" width="1280" height="398" fill="url(#skyGrad)"/>
+  <rect x="0" y="470" width="1280" height="330" fill="url(#seaGrad)"/>
+
+  <!-- sun -->
+  <circle cx="1015" cy="238" r="118" fill="#C5A059" opacity="0.14"/>
+  <circle cx="1015" cy="238" r="72" fill="#C5A059" opacity="0.9"/>
+
+  <!-- distant horizon glow -->
+  <rect x="0" y="464" width="1280" height="6" fill="#FFFFFF" opacity="0.35"/>
+
+  <!-- gentle waves -->
+  <path d="M0 540 Q 160 528 320 540 T 640 540 T 960 540 T 1280 540" fill="none" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="2"/>
+  <path d="M0 600 Q 200 586 400 600 T 800 600 T 1280 600" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M0 668 Q 240 654 480 668 T 960 668 T 1280 668" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- abstract cliff with minimal villa, right side -->
+  <path d="M980 470 L1280 470 L1280 800 L1128 800 L1012 600 Z" fill="#3E5A6B"/>
+  <path d="M980 470 L1280 470 L1280 800 L1128 800 L1012 600 Z" fill="none" stroke="#2F4756" stroke-width="1" opacity="0.5"/>
+  <g stroke="#F2EDE2" stroke-width="2.5" fill="none">
+    <rect x="1108" y="436" width="96" height="34"/>
+    <line x1="1108" y1="453" x2="1204" y2="453"/>
+    <line x1="1096" y1="470" x2="1216" y2="470"/>
+    <line x1="1140" y1="436" x2="1140" y2="470"/>
+  </g>
+
+  <!-- Top navigation -->
+  <rect x="0" y="0" width="1280" height="72" fill="#F6F4F0"/>
+  <line x1="0" y1="71.5" x2="1280" y2="71.5" stroke="#E3DED2" stroke-width="1"/>
+  <rect x="72" y="28" width="16" height="16" transform="rotate(45 80 36)" fill="#C5A059"/>
+  <text x="106" y="43" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#111827">Mirador Azul</text>
+  <line x1="252" y1="24" x2="252" y2="48" stroke="#C5A059" stroke-width="1"/>
+  <text x="268" y="41" font-size="12" letter-spacing="2" fill="#7A8288">MALLORCA</text>
+
+  <text x="676" y="41" font-size="14" fill="#3A4753">Residencias</text>
+  <text x="788" y="41" font-size="14" fill="#3A4753">Galería</text>
+  <text x="876" y="41" font-size="14" fill="#3A4753">Ubicación</text>
+  <text x="984" y="41" font-size="14" fill="#3A4753">Contacto</text>
+
+  <!-- ES/EN toggle -->
+  <rect x="1100" y="20" width="108" height="32" rx="16" fill="#FFFFFF" stroke="#DDD6C6" stroke-width="1"/>
+  <rect x="1100" y="20" width="54" height="32" rx="16" fill="#C5A059"/>
+  <text x="1127" y="41" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">ES</text>
+  <text x="1181" y="41" text-anchor="middle" font-size="13" font-weight="600" fill="#7A8288">EN</text>
+
+  <!-- Hero content -->
+  <text x="80" y="222" font-size="12" font-weight="600" letter-spacing="4" fill="#9A7A38">MALLORCA · COSTA SUROESTE</text>
+  <text x="78" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#111827">La Cúspide del</text>
+  <text x="78" y="378" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-style="italic" fill="#9A7A38">Mediterráneo</text>
+  <text x="80" y="428" font-size="16" fill="#2B3A45">Una colección privada de doce residencias frente al mar,</text>
+  <text x="80" y="452" font-size="16" fill="#2B3A45">donde la arquitectura dialoga con la luz del Mediterráneo.</text>
+
+  <!-- CTAs -->
+  <rect x="80" y="496" width="232" height="54" rx="4" fill="url(#goldGrad)"/>
+  <text x="196" y="530" text-anchor="middle" font-size="15" font-weight="600" fill="#FFFFFF">Explorar Residencias</text>
+  <rect x="332" y="496" width="224" height="54" rx="4" fill="#FFFFFF" fill-opacity="0.85" stroke="#111827" stroke-width="1.5"/>
+  <text x="444" y="530" text-anchor="middle" font-size="15" font-weight="600" fill="#111827">Solicitar información</text>
+
+  <!-- scroll hint -->
+  <line x1="80" y1="716" x2="80" y2="752" stroke="#E8EFF2" stroke-width="1.5"/>
+  <text x="96" y="740" font-size="11" letter-spacing="3" fill="#DCE6EA">DESPLÁZATE</text>
+
+  <!-- synthetic caption -->
+  <text x="1264" y="786" text-anchor="end" font-size="11" fill="#D7E2E7">Datos sintéticos — mockup de demostración</text>
+</svg>
