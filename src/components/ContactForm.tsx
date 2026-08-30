@@ -60,7 +60,7 @@ export function ContactForm() {
   };
 
   return (
-    <section className="section section--ink contact" id="contacto" aria-labelledby="contact-title">
+    <section className="section section--light contact" id="contacto" aria-labelledby="contact-title">
       <div className="contact__layout">
         <div className="contact__intro">
           <p className="eyebrow">{t.contact.badge}</p>
@@ -87,6 +87,16 @@ export function ContactForm() {
             )}
             <p className="event-log__note">{t.contact.eventsNote}</p>
           </div>
+
+          <figure className="contact__media">
+            <img
+              src="/images/lifestyle/marina.jpg"
+              alt={t.contact.imageAlt}
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption className="contact__media-tagline">{t.contact.imageTagline}</figcaption>
+          </figure>
         </div>
 
         <div className="contact__panel">

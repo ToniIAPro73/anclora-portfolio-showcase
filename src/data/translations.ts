@@ -3,6 +3,7 @@ export type Locale = "es" | "en";
 const es = {
   nav: {
     residences: "Residencias",
+    gallery: "Galería",
     investment: "Inversión",
     location: "Ubicación",
     contact: "Contacto",
@@ -40,6 +41,8 @@ const es = {
         area: "380",
         beds: "4",
         price: "1.450.000 €",
+        imageAlt:
+          "Villa Almadrava al anochecer, con la fachada iluminada y la piscina frente al mar",
         description:
           "Planta abierta hacia el poniente, piscina de borde infinito y piedra local en fachada. La pieza más privada de la colección.",
       },
@@ -49,6 +52,7 @@ const es = {
         area: "145",
         beds: "2",
         price: "980.000 €",
+        imageAlt: "Piscina en la azotea del Ático Levante con vistas abiertas al Mediterráneo",
         description:
           "La primera luz del día entra por una terraza corrida de 40 m². Pensado para quien vive la casa hacia fuera.",
       },
@@ -58,9 +62,27 @@ const es = {
         area: "290",
         beds: "3",
         price: "2.100.000 €",
+        imageAlt: "Terraza ajardinada de Casa Pinar entre pinos mediterráneos",
         description:
           "Elevada sobre un pinar mediterráneo, con patio central y vistas abiertas a la bahía desde cada estancia principal.",
       },
+    ],
+  },
+  gallery: {
+    badge: "Galería",
+    title: "El lugar,",
+    titleAccent: "en imágenes",
+    subtitle:
+      "Un recorrido visual por las residencias, los exteriores y la vida en la costa del conjunto ficticio Mirador Azul.",
+    items: [
+      { alt: "Salón principal con vistas abiertas al mar" },
+      { alt: "Cocina de diseño con isla central" },
+      { alt: "Cala de agua clara a pocos minutos a pie" },
+      { alt: "Cocina exterior y comedor bajo el porche" },
+      { alt: "Solárium junto a la piscina al atardecer" },
+      { alt: "Dormitorio principal orientado a la bahía" },
+      { alt: "Terraza comedor con vistas al litoral" },
+      { alt: "Spa privado con piscina interior" },
     ],
   },
   investment: {
@@ -70,6 +92,7 @@ const es = {
     subtitle:
       "Indicadores orientativos presentados como capa analítica del proyecto. Todas las cifras son ficticias y se muestran con fines de demostración.",
     disclaimer: "Datos ficticios con fines de demostración.",
+    imageAlt: "Detalle de piedra natural local en la fachada del conjunto",
     metrics: [
       {
         value: "+28%",
@@ -94,6 +117,7 @@ const es = {
     titleAccent: "Mallorca",
     subtitle:
       "Un enclave ficticio inspirado en los arenales y puertos deportivos del suroeste mallorquín: calas de agua clara, pinar mediterráneo y una oferta náutica y gastronómica consolidada.",
+    imageAlt: "Vista aérea de la costa suroeste de Mallorca y su puerto deportivo",
     points: [
       {
         title: "Mar",
@@ -135,6 +159,8 @@ const es = {
     },
     submit: "Enviar consulta",
     submitting: "Enviando…",
+    imageAlt: "Puerto deportivo al atardecer, a pocos minutos de Mirador Azul",
+    imageTagline: "La vida, frente al mar",
     errors: {
       name: "Introduce tu nombre (mínimo 2 caracteres).",
       email: "Introduce un email válido.",
@@ -166,6 +192,7 @@ export type Translations = typeof es;
 const en: Translations = {
   nav: {
     residences: "Residences",
+    gallery: "Gallery",
     investment: "Investment",
     location: "Location",
     contact: "Contact",
@@ -203,6 +230,7 @@ const en: Translations = {
         area: "380",
         beds: "4",
         price: "€1,450,000",
+        imageAlt: "Villa Almadrava at dusk, with its illuminated façade and seafront pool",
         description:
           "An open floor plan facing west, an infinity pool and local stone on the façade. The most private piece in the collection.",
       },
@@ -212,6 +240,7 @@ const en: Translations = {
         area: "145",
         beds: "2",
         price: "€980,000",
+        imageAlt: "Rooftop pool at Ático Levante with open Mediterranean views",
         description:
           "The first light of day pours across a 40 m² wraparound terrace. Designed for those who live the house outwards.",
       },
@@ -221,9 +250,27 @@ const en: Translations = {
         area: "290",
         beds: "3",
         price: "€2,100,000",
+        imageAlt: "Landscaped terrace at Casa Pinar among Mediterranean pines",
         description:
           "Raised above a Mediterranean pine grove, with a central courtyard and open bay views from every main room.",
       },
+    ],
+  },
+  gallery: {
+    badge: "Gallery",
+    title: "The place,",
+    titleAccent: "in images",
+    subtitle:
+      "A visual journey through the residences, the exteriors and life on the coast of the fictional Mirador Azul development.",
+    items: [
+      { alt: "Main living room with open sea views" },
+      { alt: "Designer kitchen with central island" },
+      { alt: "Clear-water cove just a few minutes' walk away" },
+      { alt: "Outdoor kitchen and dining area under the porch" },
+      { alt: "Poolside sun deck at sunset" },
+      { alt: "Master bedroom facing the bay" },
+      { alt: "Dining terrace overlooking the coastline" },
+      { alt: "Private spa with indoor pool" },
     ],
   },
   investment: {
@@ -233,6 +280,7 @@ const en: Translations = {
     subtitle:
       "Indicative metrics presented as the analytical layer of the project. All figures are fictional and shown for demonstration purposes.",
     disclaimer: "Fictional data shown for demonstration purposes.",
+    imageAlt: "Detail of local natural stone on the development's façade",
     metrics: [
       {
         value: "+28%",
@@ -257,6 +305,7 @@ const en: Translations = {
     titleAccent: "Mallorca",
     subtitle:
       "A fictional enclave inspired by the sandy coves and marinas of southwest Mallorca: clear-water coves, Mediterranean pine groves and an established nautical and gastronomic scene.",
+    imageAlt: "Aerial view of Mallorca's southwest coast and its marina",
     points: [
       {
         title: "Sea",
@@ -298,6 +347,8 @@ const en: Translations = {
     },
     submit: "Send enquiry",
     submitting: "Sending…",
+    imageAlt: "Marina at sunset, a few minutes from Mirador Azul",
+    imageTagline: "Life, by the sea",
     errors: {
       name: "Please enter your name (at least 2 characters).",
       email: "Please enter a valid email address.",

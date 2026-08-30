@@ -6,9 +6,9 @@ export function Hero() {
   return (
     <section className="hero" id="inicio" aria-labelledby="hero-title">
       <div className="hero__backdrop" aria-hidden="true">
-        <div className="hero__sun" />
-        <div className="hero__sea" />
-        <div className="hero__grain" />
+        <img className="hero__image" src="/images/hero/hero-daylight.jpg" alt="" />
+        <div className="hero__overlay" />
+        <div className="hero__vignette" />
       </div>
 
       <div className="hero__content">

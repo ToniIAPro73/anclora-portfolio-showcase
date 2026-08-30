@@ -4,7 +4,7 @@ export function Investment() {
   const { t } = useDemo();
 
   return (
-    <section className="section section--ink" id="inversion" aria-labelledby="investment-title">
+    <section className="section section--light" id="inversion" aria-labelledby="investment-title">
       <div className="section__head">
         <p className="eyebrow">{t.investment.badge}</p>
         <h2 id="investment-title" className="section__title">
@@ -23,7 +23,15 @@ export function Investment() {
         ))}
       </div>
 
-      <p className="investment__disclaimer">{t.investment.disclaimer}</p>
+      <figure className="investment__banner">
+        <img
+          src="/images/details/stone-detail.jpg"
+          alt={t.investment.imageAlt}
+          loading="lazy"
+          decoding="async"
+        />
+        <figcaption className="investment__disclaimer">{t.investment.disclaimer}</figcaption>
+      </figure>
     </section>
   );
 }

@@ -1,5 +1,11 @@
 import { useDemo } from "../lib/demo-context";
 
+const PROPERTY_IMAGES = [
+  "/images/exteriors/night-view.jpg",
+  "/images/exteriors/rooftop-pool.jpg",
+  "/images/exteriors/garden-terrace.jpg",
+];
+
 export function Residences() {
   const { t, track } = useDemo();
 
@@ -16,11 +22,13 @@ export function Residences() {
       <div className="residences__grid">
         {t.residences.properties.map((property, index) => (
           <article className="property-card" key={property.name}>
-            <div
-              className={`property-card__media property-card__media--${index + 1}`}
-              role="img"
-              aria-label={`${property.name} — ${property.type}`}
-            >
+            <div className="property-card__media">
+              <img
+                src={PROPERTY_IMAGES[index]}
+                alt={property.imageAlt}
+                loading="lazy"
+                decoding="async"
+              />
               <span className="property-card__index" aria-hidden="true">
                 {String(index + 1).padStart(2, "0")}
               </span>

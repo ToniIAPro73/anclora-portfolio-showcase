@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useDemo } from "../lib/demo-context";
 
 export function Header() {
-  const { t, toggleLocale } = useDemo();
+  const { t, toggleLocale, track } = useDemo();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -15,9 +15,9 @@ export function Header() {
 
   const links = [
     { href: "#residencias", label: t.nav.residences },
+    { href: "#galeria", label: t.nav.gallery },
     { href: "#inversion", label: t.nav.investment },
     { href: "#ubicacion", label: t.nav.location },
-    { href: "#contacto", label: t.nav.contact },
   ];
 
   return (
@@ -50,6 +50,13 @@ export function Header() {
           >
             {t.nav.toggle}
           </button>
+          <a
+            className="site-header__cta"
+            href="#contacto"
+            onClick={() => track("cta_click", "nav:contact")}
+          >
+            {t.nav.contact}
+          </a>
           <button
             type="button"
             className="menu-toggle"
@@ -75,6 +82,9 @@ export function Header() {
             {link.label}
           </a>
         ))}
+        <a href="#contacto" onClick={() => setMenuOpen(false)}>
+          {t.nav.contact}
+        </a>
       </nav>
     </header>
   );
