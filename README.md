@@ -36,7 +36,7 @@
 
 ## Live Demo
 
-**Live demo: pending deployment**
+**[Abrir demo en vivo → anclora-portfolio-showcase.vercel.app](https://anclora-portfolio-showcase.vercel.app)**
 
 Este repositorio incluye ahora una demo interactiva desplegable (Vite + React + TypeScript) que reproduce la experiencia con datos ficticios e interacciones simuladas. Para ejecutarla en local: `npm install && npm run dev`. Ver [docs/demo-architecture.md](docs/demo-architecture.md).
 
