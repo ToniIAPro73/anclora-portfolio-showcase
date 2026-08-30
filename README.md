@@ -34,6 +34,12 @@
 
 ---
 
+## Live Demo
+
+**Live demo: pending deployment**
+
+Este repositorio incluye ahora una demo interactiva desplegable (Vite + React + TypeScript) que reproduce la experiencia con datos ficticios e interacciones simuladas. Para ejecutarla en local: `npm install && npm run dev`. Ver [docs/demo-architecture.md](docs/demo-architecture.md).
+
 ## El problema
 
 En el Real Estate de lujo, la web es la primera visita a la propiedad. Un desarrollo residencial premium compite por compradores que juzgan el producto por su presentación digital mucho antes de pisar el lugar: una experiencia genérica, lenta o mal adaptada al móvil destruye valor percibido. Y cuando el interés aparece, un formulario de contacto sin validación, sin protección frente a abuso y sin medición convierte la captación en una caja negra: leads de baja calidad, spam y ninguna forma de saber qué canales funcionan.
@@ -98,13 +104,13 @@ Más detalle en [docs/architecture.md](docs/architecture.md).
 
 | Hero premium | Residencias |
 |---|---|
-| ![Hero premium](assets/screenshots/01-hero.svg) | ![Residencias](assets/screenshots/02-residences.svg) |
+| ![Hero premium](assets/screenshots/01-hero.png) | ![Residencias](assets/screenshots/02-residences.png) |
 
 | Formulario de captación | Experiencia móvil |
 |---|---|
-| ![Formulario de captación](assets/screenshots/03-lead-capture.svg) | ![Experiencia móvil](assets/screenshots/04-mobile.svg) |
+| ![Formulario de captación](assets/screenshots/03-lead-capture.png) | ![Experiencia móvil](assets/screenshots/04-mobile.png) |
 
-Las capturas son maquetas recreadas con datos ficticios; no proceden del entorno operativo.
+Las capturas proceden de la demo interactiva de este repositorio, que funciona con datos ficticios; no proceden del entorno operativo.
 
 ## Capacidades de captación y conversión
 
@@ -149,6 +155,7 @@ Este proyecto demuestra experiencia práctica en:
 
 - [docs/product-overview.md](docs/product-overview.md) — problema, audiencia y propuesta de valor
 - [docs/architecture.md](docs/architecture.md) — arquitectura de alto nivel
+- [docs/demo-architecture.md](docs/demo-architecture.md) — demo interactiva desplegable (Vite + React + TypeScript)
 - [docs/conversion-and-lead-capture.md](docs/conversion-and-lead-capture.md) — pipeline de captación y conversión
 - [docs/engineering-decisions.md](docs/engineering-decisions.md) — decisiones de ingeniería
 - [docs/security-and-privacy.md](docs/security-and-privacy.md) — principios de seguridad y privacidad

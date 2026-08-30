@@ -90,3 +90,4 @@ Un hook cliente captura los parámetros UTM y el referrer en el primer contacto 
 - [conversion-and-lead-capture.md](conversion-and-lead-capture.md) — el pipeline de captación etapa a etapa
 - [engineering-decisions.md](engineering-decisions.md) — por qué se decidió así
 - [testing-and-quality.md](testing-and-quality.md) — cómo se verifica esta arquitectura
+- [demo-architecture.md](demo-architecture.md) — la demo interactiva desplegable (Vite + React + TypeScript) incluida en este repositorio

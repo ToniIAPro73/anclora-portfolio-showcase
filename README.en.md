@@ -34,6 +34,12 @@
 
 ---
 
+## Live Demo
+
+**Live demo: pending deployment**
+
+This repository now includes a deployable interactive demo (Vite + React + TypeScript) that recreates the experience with fictional data and simulated interactions. To run it locally: `npm install && npm run dev`. See [docs/demo-architecture.md](docs/demo-architecture.md).
+
 ## The problem
 
 In luxury real estate, the website is the first property viewing. A premium residential development competes for buyers who judge the product by its digital presentation long before setting foot on site: a generic, slow or poorly mobile-adapted experience destroys perceived value. And when interest does emerge, a contact form without validation, abuse protection or measurement turns lead capture into a black box: low-quality leads, spam and no way to know which channels actually work.
@@ -98,13 +104,13 @@ More detail in [docs/architecture.md](docs/architecture.md).
 
 | Premium hero | Residences |
 |---|---|
-| ![Premium hero](assets/screenshots/01-hero.svg) | ![Residences](assets/screenshots/02-residences.svg) |
+| ![Premium hero](assets/screenshots/01-hero.png) | ![Residences](assets/screenshots/02-residences.png) |
 
 | Lead capture form | Mobile experience |
 |---|---|
-| ![Lead capture form](assets/screenshots/03-lead-capture.svg) | ![Mobile experience](assets/screenshots/04-mobile.svg) |
+| ![Lead capture form](assets/screenshots/03-lead-capture.png) | ![Mobile experience](assets/screenshots/04-mobile.png) |
 
-The screenshots are mockups recreated with fictional data; they do not come from the operational environment.
+The screenshots come from the interactive demo in this repository, which runs on fictional data; they do not come from the operational environment.
 
 ## Lead capture and conversion capabilities
 
@@ -149,6 +155,7 @@ This project demonstrates hands-on experience in:
 
 - [docs/product-overview.md](docs/product-overview.md) — problem, audience and value proposition
 - [docs/architecture.md](docs/architecture.md) — high-level architecture
+- [docs/demo-architecture.md](docs/demo-architecture.md) — deployable interactive demo (Vite + React + TypeScript)
 - [docs/conversion-and-lead-capture.md](docs/conversion-and-lead-capture.md) — capture and conversion pipeline
 - [docs/engineering-decisions.md](docs/engineering-decisions.md) — engineering decisions
 - [docs/security-and-privacy.md](docs/security-and-privacy.md) — security and privacy principles
