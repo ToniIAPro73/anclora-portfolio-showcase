@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDemo } from "../lib/demo-context";
+import brandLogo from "../../assets/brand/anclora-portfolio-showcase.webp";
 
 export function Header() {
   const { t, toggleLocale, track } = useDemo();
@@ -24,9 +25,7 @@ export function Header() {
     <header className={`site-header${scrolled ? " site-header--scrolled" : ""}`}>
       <div className="site-header__inner">
         <a className="site-header__brand" href="#inicio">
-          <span className="site-header__brand-mark" aria-hidden="true">
-            ⚓
-          </span>
+          <img className="site-header__brand-mark" src={brandLogo} alt="" width={46} height={46} decoding="async" />
           <span className="site-header__brand-text">
             {t.nav.brand}
             <span className="site-header__brand-suffix"> · {t.nav.brandSuffix}</span>
